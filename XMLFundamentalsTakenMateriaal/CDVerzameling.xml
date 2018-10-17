@@ -1,1 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+<cdCollectie>
+  <cd>
+    <titel>Get rich or die tryin'</titel>
+    <artiest>50cent</artiest>
+    <jaar>2003</jaar>
+  </cd>
+  <cd>
+    <titel>The Marshall Mathers LP</titel>
+    <artiest>Eminem</artiest>
+    <jaar>2000</jaar>
+  </cd>
+  <cd>
+    <titel>Californication</titel>
+    <artiest>Red Hot Chili Peppers</artiest>
+    <jaar>1999</jaar>
+  </cd>
+</cdCollectie>
