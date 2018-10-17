@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<boek boeknr="405" isbn="9781590590102">
+	<titel>Database Programming with C#</titel>
+	<schrijver>Thomsen</schrijver>
+	<uitgever>Apress</uitgever>
+	<curriculum nr="38">
+		<naam>.NET ontwikkelaar met C#</naam>
+		<beroepencode>750412</beroepencode>
+	</curriculum>
+</boek>
