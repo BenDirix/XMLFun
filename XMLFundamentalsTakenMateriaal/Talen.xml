@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<talen>
-	<taal>Java</taal>
-	<taal>C#</taal>
-	<taal>PHP</taal>
-	<taal>Nederlands</taal>
-	<taal>Frans</taal>
-	<taal>Duits</taal>
+<talen xmlns:pc="http://www.computerlanguages.org/list"
+       xmlns:spoken="http://www.spokenlanguages.org/list">
+	<pc:taal>Java</pc:taal>
+  <pc:taal>C#</pc:taal>
+	<pc:taal>PHP</pc:taal>
+	<spoken:taal>Nederlands</spoken:taal>
+	<spoken:taal>Frans</spoken:taal>
+	<spoken:taal>Duits</spoken:taal>
 </talen>
