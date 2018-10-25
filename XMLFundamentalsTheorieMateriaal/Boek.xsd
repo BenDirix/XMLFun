@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
         xmlns:vdab="http://www.vdab.be/boek"
-        targetNamespace="http://www.vdab.be/boek" elementFormDefault="qualified">
-  <!--Zelf gedefinieerde types-->
+        targetNamespace="http://www.vdab.be/boek"
+        elementFormDefault="qualified">
   <simpleType name="ISBN">
-    <restriction base="positiveInteger">
+    <restriction base="integer">
       <pattern value="978\d{10}"/>
     </restriction>
   </simpleType>
   <simpleType name="BeroepenCode">
-    <restriction base="integer">
+    <restriction base="positiveInteger">
       <pattern value="\d{6}"/>
     </restriction>
   </simpleType>
@@ -27,7 +27,7 @@
       <element name="uitgever" type="string"/>
       <element name="curriculum" type="vdab:Curriculum"/>
     </sequence>
-    <attribute name="boeknr" use="required" type="positiveInteger"/>
+    <attribute name="boeknr" use="required" type="integer"/>
     <attribute name="isbn" use="required" type="vdab:ISBN"/>
   </complexType>
   <element name="boek" type="vdab:Boek"/>
