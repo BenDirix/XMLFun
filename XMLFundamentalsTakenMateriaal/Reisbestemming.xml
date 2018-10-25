@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bestemming xmlns="http://www.vdab.be/reisbestemming"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.vdab.be/reisbestemming Reisbestemming.xsd">
+  <naam>Kreta</naam>
+  <hotels>
+    <hotel naam="Time to smile Sundance" prijs="510"/>
+    <hotel naam="Suneo club Chrissi" prijs="610"/>
+    <hotel naam="Suneo club Althea Village" prijs="801"/>
+    <hotel naam="Aquila Porto Rethymnon" prijs="544"/>
+  </hotels>
+  <excursies>
+    <excursie naam="Spinalonga" prijs="54" aantaldagen="1"/>
+    <excursie naam="Jeep safari" prijs="78" aantaldagen="2"/>
+    <excursie naam="Knossos en Heraklion" prijs="55" aantaldagen="1"/>
+  </excursies>
+</bestemming>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:vdab="http://www.vdab.be/artikels" 
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+        xmlns:vdab="http://www.vdab.be/artikels" 
         targetNamespace ="http://www.vdab.be/artikels"
         elementFormDefault="qualified">
   <simpleType name="ProductieDatum">
