@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:vdab="http://www.vdab.be/bioschoopfilm"
+        targetNamespace="http://www.vdab.be/bioschoopfilm"
+        elementFormDefault="qualified">
+  <complexType name="Genres">
+    <sequence>
+      <element name="genre" type="string" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+  <complexType name="Acteurs">
+    <sequence>
+      <element name="acteur" type="string" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+  <complexType name="Bioscoopfilm">
+    <sequence>
+      <element name="naam"/>
+      <element name="genres" type="vdab:Genres"/>
+      <element name="duurtijd" type="nonNegativeInteger"/>
+      <element name="regisseur"/>
+      <element name="acteurs" type="vdab:Acteurs"/>
+    </sequence>
+  </complexType>
+  <element name="bioscoopfilm" type="vdab:Bioscoopfilm"/>
+</schema>

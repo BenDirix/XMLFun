@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bioscoopfilm xmlns="http://www.vdab.be/bioschoopfilm"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.vdab.be/bioschoopfilm Bioscoop.xsd">
+  <naam>Miss Peregrine's Home for Peculiar Childre</naam>
+  <genres>
+    <genre>Fantasy</genre>
+    <genre>Avontuur</genre>
+  </genres>
+  <duurtijd>127</duurtijd>
+  <regisseur>Tim Burton</regisseur>
+  <acteurs>
+    <acteur>Eva Green</acteur>
+    <acteur>Judi Dench</acteur>
+    <acteur>Samuel L. Jackson</acteur>
+    <acteur>Asa Butterfield</acteur>
+    <acteur>Ella Purnell</acteur>
+    <acteur>Terence Stamp</acteur>
+  </acteurs>
+</bioscoopfilm>
