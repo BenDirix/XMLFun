@@ -11,9 +11,9 @@
 		<attribute name="naam" use="required" />
 	</complexType>
 	<complexType name="Strip">
-		<attribute name="titel" use="required" />
-		<attribute name="isbn" use="required" type="vdab:ISBN" />
-		<attribute name="tekenaarId" use="required" type="positiveInteger" />
+		<attribute name="titel"       use="required" />
+		<attribute name="isbn"        use="required" type="vdab:ISBN" />
+		<attribute name="tekenaarId"  use="required" type="positiveInteger" />
 		<attribute name="schrijverId" use="required" type="positiveInteger" />
 	</complexType>
 	<complexType name="Medewerkers">
@@ -29,7 +29,7 @@
 	<complexType name="LuckyLuke">
 		<sequence>
 			<element name="medewerkers" type="vdab:Medewerkers" />
-			<element name="strips" type="vdab:Strips" />
+			<element name="strips"      type="vdab:Strips" />
 		</sequence>
 	</complexType>
 	<element name="luckyluke" type="vdab:LuckyLuke">

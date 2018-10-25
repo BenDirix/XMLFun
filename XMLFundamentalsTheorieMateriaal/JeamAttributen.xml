@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <persoon xmlns="http://www.vdab.be/personen" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.vdab.be/personen Attributen.xsd" 
- voornaam="Jean" familienaam="Smits" />
+	xsi:schemaLocation="http://www.vdab.be/personen Attributen.xsd"
+  voornaam="Jean" familienaam="Smits" 
+         aantalKinderen="1" geboorteDatum="1966-08-01" gehuwd="true" wedde="5432.17"
+         taalCode="nl" geslacht="man"/>
 

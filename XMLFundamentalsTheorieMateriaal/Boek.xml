@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
-<boek boeknr="405" isbn="9781590590102">
+<boek xmlns="http://www.vdab.be/boek"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.vdab.be/boek Boek.xsd"
+      boeknr="405" isbn="9781590590102">
 	<titel>Database Programming with C#</titel>
 	<schrijver>Thomsen</schrijver>
 	<uitgever>Apress</uitgever>
