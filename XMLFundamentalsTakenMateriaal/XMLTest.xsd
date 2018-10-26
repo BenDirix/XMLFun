@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:vdab="http://www.vdab.be/cursisten"
+        targetNamespace="http://www.vdab.be/cursisten"
+        elementFormDefault="qualified">
+  <simpleType name="Traject">
+    <restriction base="string">
+      <enumeration value="Java"/>
+      <enumeration value="C#"/>
+      <enumeration value="PHP"/>
+    </restriction>    
+  </simpleType>
+  <simpleType name="Naam">
+    <restriction base="string">
+      <pattern value="([\s\t\r]*\S+[\s\t\r]*)+"/>
+    </restriction>
+  </simpleType>  
+  <simpleType name="Email">
+    <restriction base="string">
+      <pattern value=".+@.+\.[a-z]+"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="Geboorte">
+    <restriction base="date">
+      <minInclusive value="1950-01-01"/>
+    </restriction>
+  </simpleType>   
+  
+  <complexType name="Cursist">
+    <sequence>
+      <element name="voornaam" type="vdab:Naam"/>
+      <element name="familienaam" type="vdab:Naam"/>
+      <element name="email" type="vdab:Email"/>
+      <element name="geboortedatum" type="vdab:Geboorte"/>
+      <element name="traject" type="vdab:Traject"/>
+    </sequence>    
+  </complexType>
+  <complexType name="Cursisten">
+    <sequence>
+      <element name="cursist" type="vdab:Cursist" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+  <complexType name="Opleiding">
+    <sequence>      
+      <element name="cursisten" type="vdab:Cursisten"/>
+    </sequence>    
+  </complexType>
+  <element name="opleiding" type="vdab:Opleiding">
+    <key name="email">
+      <selector xpath="vdab:cursisten/vdab:cursist"/>
+      <field xpath="vdab:email"/>
+    </key>
+  </element>
+</schema>

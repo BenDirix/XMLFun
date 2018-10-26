@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\XMLFundamentalsTakenMateriaal",
-    "\\XMLFundamentalsTheorieMateriaal"
+    "\\XMLFundamentalsTakenMateriaal"
   ],
-  "SelectedNode": "\\XMLFundamentalsTheorieMateriaal\\Boek.xml",
+  "SelectedNode": "\\XMLFundamentalsTakenMateriaal\\XMLTest2.xml",
   "PreviewInSolutionExplorer": false
 }
